@@ -1,0 +1,23 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.noJs {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+
+
+.table, .table th, .table td{
+  border: 3px solid black;
+  border-collapse: collapse;
+  //width: 100%;
+  margin-top: -6px;
+}
+#name{
+  background-color: aquamarine;
+}
